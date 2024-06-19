@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #270047; /* Define a cor de fundo da página */
+    display: flex; /* Utiliza flexbox para alinhar o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura da página para ocupar toda a janela */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.container {
+    background-color: rgb(126, 0, 165); /* Cor de fundo branca */
+    padding: 20px; /* Espaçamento interno de 20px */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor do container */
+    text-align: center; /* Alinhamento central do texto */
+}
+
+h1 {
+    margin-bottom: 20px; /* Espaçamento inferior de 20px */
+}
+
+.game {
+    margin-bottom: 20px; /* Espaçamento inferior de 20px */
+}
+
+label {
+    display: block; /* Exibe o rótulo como um bloco */
+    margin: 10px 0 5px; /* Margem superior e inferior de 10px, inferior de 5px */
+}
+
+input, select {
+    width: 100%; /* Largura total do container pai */
+    padding: 10px; /* Espaçamento interno de 10px */
+    margin-bottom: 10px; /* Margem inferior de 10px */
+    border-radius: 5px; /* Cantos arredondados */
+    border: 1px solid #7700c7; /* Borda cinza clara */
+}
+
+button {
+    padding: 10px 20px; /* Espaçamento interno: 10px vertical e 20px horizontal */
+    background-color: #ba4fe4; /* Cor de fundo azul */
+    color: rgb(99, 17, 167); /* Cor do texto branca */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor de mão ao passar por cima */
+}
+
+button:hover {
+    background-color: #2f0269; /* Cor de fundo azul mais escuro ao passar o cursor */
+}
+
+.result {
+    margin-top: 20px; /* Espaçamento superior de 20px */
+}
+
+#result-message {
+    font-size: 1.2em; /* Tamanho da fonte maior */
+    font-weight: bold; /* Texto em negrito */
+}

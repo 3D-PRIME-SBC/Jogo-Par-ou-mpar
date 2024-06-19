@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres para a página -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a escala da página para dispositivos móveis -->
+    <title>Jogo de Par ou Ímpar</title> <!-- Define o título da página -->
+    <link rel="stylesheet" href="INDEX.CSS"> <!-- Link para o arquivo de estilo CSS -->
+</head>
+<body>
+    <div class="container"> <!-- Div container para centralizar o conteúdo -->
+        <h1>Jogo de Par ou Ímpar</h1> <!-- Título do jogo -->
+        <div class="game"> <!-- Div para o formulário do jogo -->
+            <label for="choice">Escolha Par ou Ímpar:</label> <!-- Rótulo para a escolha do jogador -->
+            <select id="choice"> <!-- Menu suspenso para escolher entre Par ou Ímpar -->
+                <option value="par">Par</option> <!-- Opção Par -->
+                <option value="impar">Ímpar</option> <!-- Opção Ímpar -->
+            </select>
+
+            <label for="player-number">Digite um número (0-10):</label> <!-- Rótulo para o campo de número -->
+            <input type="number" id="player-number" min="0" max="10"> <!-- Campo de entrada de número com limite entre 0 e 10 -->
+
+            <button onclick="playGame()">Jogar</button> <!-- Botão que chama a função playGame() ao ser clicado -->
+        </div>
+        <div class="result"> <!-- Div para exibir o resultado do jogo -->
+            <p id="result-message"></p> <!-- Parágrafo onde a mensagem de resultado será exibida -->
+        </div>
+    </div>
+
+    <script src="INDEX.JS"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
